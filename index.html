@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kidim - Somay Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor2"></div>
+
+    <!-- Theme Toggle -->
+    <button class="theme-toggle" id="themeToggle">
+        <span>Ganti</span>
+        <i class="fas fa-magic"></i>
+    </button>
+
+    <!-- Main Container -->
+    <div class="container">
+        <!-- Floating Elements -->
+        <div class="floating-elements">
+            <div class="float-item item1"><i class="fas fa-drumstick-bite"></i></div>
+            <div class="float-item item2"><i class="fas fa-code"></i></div>
+            <div class="float-item item3"><i class="fas fa-star"></i></div>
+            <div class="float-item item4">🥟</div>
+        </div>
+
+        <!-- Profile Card -->
+        <div class="profile-card" id="profileCard">
+            <!-- Profile Picture -->
+            <div class="profile-pic-container">
+                <div class="profile-ring"></div>
+                <img src="https://c.termai.cc/i185/AUPhA.jpg" alt="Kidim" class="profile-pic" id="profilePic">
+                <div class="profile-glow"></div>
+            </div>
+
+            <!-- Name -->
+            <h1 class="name" data-text="KIDIM">KIDIM</h1>
+
+            <!-- Description -->
+            <div class="description">
+                <div class="desc-line">
+                    Aku suka <span class="highlight">somay</span> 🥟
+                </div>
+                <div class="desc-line">
+                    Cuma developer pemula yang baru belajar ngoding 💻
+                </div>
+            </div>
+
+            <!-- Skills -->
+            <div class="skills-section">
+                <h3 class="section-title">
+                    <i class="fas fa-fire"></i> SKILLS
+                </h3>
+                <div class="skills-grid">
+                    <div class="skill-item">
+                        <i class="fas fa-drumstick-bite skill-icon"></i>
+                        <span>Makan Somay</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 100%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-code skill-icon"></i>
+                        <span>HTML/CSS/JS</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 40%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-rocket skill-icon"></i>
+                        <span>Belajar Coding</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 70%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Social Links -->
+            <div class="social-section">
+                <a href="https://instagram.com/tatsu_kairo" target="_blank" class="social-btn instagram">
+                    <i class="fab fa-instagram"></i>
+                    <span>@tatsu_kairo</span>
+                </a>
+                <a href="https://github.com/kidimabcd" target="_blank" class="social-btn github">
+                    <i class="fab fa-github"></i>
+                    <span>@kidimabcd</span>
+                </a>
+                <a href="https://wa.me/13679879627" target="_blank" class="social-btn whatsapp">
+                    <i class="fab fa-whatsapp"></i>
+                    <span>13679879627</span>
+                </a>
+            </div>
+
+            <!-- Typing Effect -->
+            <div class="typing-container">
+                <span class="typing-text"></span>
+                <span class="cursor-blink">|</span>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
